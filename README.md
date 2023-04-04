@@ -1,7 +1,17 @@
 ﻿![image](https://user-images.githubusercontent.com/11174278/229805871-aa708043-afbd-4514-b295-a38876f1e361.png)
 
+
+
+
+
+## Simple CRUD
+
+![image](https://user-images.githubusercontent.com/11174278/229807097-56092c70-2e46-4052-9666-08cb0c7f1468.png)
+
+
  ##FAST WAY 
  ________________
+ 
  ``` sql
  Create DATABASE TestDB
 
