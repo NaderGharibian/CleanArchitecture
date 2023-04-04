@@ -11,7 +11,7 @@ using Core.Interfaces.UseCases;
 
 namespace Core.UseCases.Requests
 {
-    public class DeleteCustomerRequestUseCase : IDeleteCustomerRequestUseCase
+    internal class DeleteCustomerRequestUseCase : IDeleteCustomerRequestUseCase
     {
         private readonly ICustomerRepository _customerRepository;
         private readonly ITestDBRepository _testDBRepository;

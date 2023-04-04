@@ -5,7 +5,7 @@ using Core.Interfaces.Repositories;
 
 namespace Infrastructure.Repositories
 {
-    public class CustomerRepository : ICustomerRepository
+    internal class CustomerRepository : ICustomerRepository
     {
         private readonly TestDBContext _TestDBContext;
 

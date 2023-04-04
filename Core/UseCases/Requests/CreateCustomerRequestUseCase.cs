@@ -11,7 +11,7 @@ using Core.Interfaces.UseCases;
 
 namespace Core.UseCases.Requests
 {
-    public class CreateCustomerRequestUseCase : ICreateCustomerRequestUseCase
+    internal class CreateCustomerRequestUseCase : ICreateCustomerRequestUseCase
     {
         private readonly ICustomerRepository _customerRepository;
         private readonly ITestDBRepository _testDBRepository;

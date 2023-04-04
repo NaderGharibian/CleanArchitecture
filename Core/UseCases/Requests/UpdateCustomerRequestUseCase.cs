@@ -11,7 +11,7 @@ using Core.Interfaces.UseCases;
 
 namespace Core.UseCases.Requests
 {
-    public class UpdateCustomerRequestUseCase : IUpdateCustomerRequestUseCase
+    internal class UpdateCustomerRequestUseCase : IUpdateCustomerRequestUseCase
     {
         private readonly ICustomerRepository _customerRepository;
         private readonly ITestDBRepository _testDBRepository;
